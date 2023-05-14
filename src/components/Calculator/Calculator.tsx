@@ -25,7 +25,6 @@ export const Calculator = () => {
     setCurrentNumber(`${currentNumber}${newNumber}`);
   }
   
-
   const onChange = (newNumber: string | number) => {
     setCurrentNumber(`${newNumber}`);
   }
